@@ -1,3 +1,14 @@
+
+{% extends "layout.html" %}
+{% block title %} 
+Home Page
+{% endblock  %}
+
+{% block content %}
+<h1 class="bg-orange-500 text-3xl">Chai aur code | Home Page</h1>
+<p class="text-center w-20 bg-orange-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, asperiores.</p>
+{% endblock %}
+
 {% comment %} {%load static %}
 
 <!DOCTYPE html>
@@ -13,11 +24,3 @@
     <h1>Chai aur Django </h1>
 </body>
 </html> {% endcomment %}
-{% extends "layout.html" %}
-{% block title %} 
-Home Page
-{% endblock  %}
-
-{% block content %}
-<h1>Chai aur code | Home Page</h1>
-{% endblock %}
